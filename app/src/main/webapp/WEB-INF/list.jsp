@@ -17,22 +17,18 @@
                      <th>Título</th>
                     <th>&nbsp;</th>
                 </tr>
-                <c:forEach var="item" items=" "${livros}">
+                <c:forEach var="item" items="${livros}">
                      <tr>
-                         <td>$(item.id)</td>
-                         <td>$(item.titulo)</td>
+                         <td>${item.id}</td>
+                         <td>${item.titulo}</td>
                          <td>
-                             <a class="btn btn-warning" >Editar</a>
+                             <a href="/update?id=${item.id}" class="btn btn-warning" >Editar</a>
                              <a href="/delete?id=${item.id}" class="btn btn-danger" >Excluir</a>
                          </td>
                      </tr>
                 </c:forEach>
             </table>
         </div>                       
-        <h1>Livros</h1>
-        <c:forEach var="item" items="${livros}">
-            ${item.titulo} <br />
-        </c:forEach>
     </body>
 </html>
 
