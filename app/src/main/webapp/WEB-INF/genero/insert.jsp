@@ -6,11 +6,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Add Genero</h1>
+    <h1>Adicionar Gênero</h1>
     <form action="/genero/insert" method="post">
         <label for="nome">Nome:</label>
         <input type="text" name="nome" id="nome" required>
-        <button type="submit">Add Genero</button>
+        <button type="submit">Adicionar</button>
     </form>
 </body>
 </html>
