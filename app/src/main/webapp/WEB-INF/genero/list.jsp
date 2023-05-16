@@ -25,6 +25,6 @@
             </tr>
         </c:forEach>
     </table>
-    <a href="/genero/insert">Add Genero</a>
+    <a href="/genero/insert">Adicionar Gênero</a>
 </body>
 </html>
