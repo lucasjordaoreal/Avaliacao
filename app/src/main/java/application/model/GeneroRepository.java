@@ -1,6 +1,7 @@
 package application.model;
+
 import org.springframework.data.repository.CrudRepository;
-import application.model.Genero;
 
 public interface GeneroRepository extends CrudRepository<Genero, Integer> {
+    
 }
